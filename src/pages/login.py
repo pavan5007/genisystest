@@ -18,14 +18,7 @@ def login_existing_user(username, password):
     driver_obj.find_element(By.ID, "loginPasswordInput").send_keys(password)
     driver_obj.find_element(By.ID, "loginSubmit").click()
     time.sleep(10)
-    # driver_obj.find_element(By.XPATH,"//span[normalize-space()='Library']").click()
-    # driver_obj.find_element(By.XPATH,"//div[contains(text(),'Unlock Access')]").click()
-    # time.sleep(10)
-    # handles = driver_obj.window_handles
-    # driver_obj.switch_to.window(handles[1])
-    # time.sleep(10)
-    # driver_obj.find_element(By.XPATH, "//a[normalize-space()='Get Splash Pro']").click()
-    # return True
+    
 
 
 def get_library():
